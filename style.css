@@ -103,6 +103,7 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid var(--darkblue-color);
 }
 
 .logo-bar h1 {
@@ -120,6 +121,14 @@ table {
 /* TABLE */
 /* TABLE */
 
+
+caption {
+    font-size: 2rem;
+    color: var(--bakalar-grey);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
 table {
     table-layout: fixed;
@@ -209,6 +218,11 @@ tbody th {
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.end {
+    background-color: rgb(109, 213, 109);
+    opacity: 0.7;
 }
 
 
