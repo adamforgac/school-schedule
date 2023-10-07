@@ -12,8 +12,7 @@ tdElements.forEach(td => {
 });
 
 const button = document.querySelector(".button-area button");
-const scheduleArea = document.querySelector(".table-area");
 
 button.addEventListener("click", () => {
-    window.print(scheduleArea);
+    window.print();
 })
