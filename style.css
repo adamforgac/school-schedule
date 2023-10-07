@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: schoolFont;
+    src: url(school-font.woff2);
+}
+
+:root {
+    --bakalar-grey: #303030;
+    --red-color: #C20E1A;
+    --blue-color: #00A2E2;
+    --darkblue-color: #4671c0;
+    --orange-color: #FF7F50;
+    --white-color: #ffffff;
+}
+
+
+/* WRAPPER */
+/* WRAPPER */
+/* WRAPPER */
+
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* LOGO BAR */
+/* LOGO BAR */
+/* LOGO BAR */
+
+
+.table-area {
+    min-width: 800px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 30px;
+    display: grid;
+    margin: 0 40px;
+    grid-template-rows: min-content auto;
+    gap: 20px;
+}
+
+.logo-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bar h1 {
+    font-family: schoolFont, serif;
+    font-size: 4rem;
+    color: rgb(0, 61, 104);
+}
+
+.logo-bar img {
+    width: 100px;
+}
+
+
+/* TABLE */
+/* TABLE */
+/* TABLE */
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    border: 2px solid white;
+    background: rgba(0,0,0,0.05);
+}
+
+.hours time, .hours span {
+    font-size: 0.75rem;
+    color: var(--bakalar-grey);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+
+.hours time {
+    width: 29px;
+}
+
+.hours span {
+    width: 6px;
+}
+
+.hours p {
+    font-size: 0.9375rem;
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+tbody th {
+    font-size: 0.9375rem;
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--blue-color);
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.cell-layout {
+    display: grid;
+    grid-template-rows: min-content auto;
+    height: 102px;
+    padding: 2px;
+} 
+
+.room-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.room-info p:first-child {
+    text-transform: uppercase;
+    font-size: 0.6875rem;
+    color: var(--blue-color);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+}
+
+.room-info p:last-child {
+    font-size: 0.655rem;
+    color: var(--bakalar-grey);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+}
+
+.lesson-info h2 {
+    font-size: 1.3rem;
+    color: var(--blue-color);
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.lesson-info p {
+    font-size: 0.75rem;
+    color: var(--bakalar-grey);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+/* PRINT ICON */
+/* PRINT ICON */
+/* PRINT ICON */
+
+
+.button-area button {
+    margin-top: 30px;
+}
+
+
+
+
+

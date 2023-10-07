@@ -1,0 +1,15 @@
+@media only screen and (max-width: 990px) {
+    .room-info {
+        display: none;
+    }
+
+    .cell-layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lesson-info h2 {
+        font-size: 1rem;
+    }
+}
