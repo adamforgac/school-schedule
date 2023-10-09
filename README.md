@@ -1,2 +1,2 @@
 # school-schedule
-Another task from school seminar that focused on working with tables
+Another task from school seminar that focuses on working with tables
